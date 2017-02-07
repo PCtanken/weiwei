@@ -1,0 +1,181 @@
+/* reset */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-overflow-scrolling: touch;}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn,b{font-style:normal; font-weight:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input[type="button"],input[type="submit"]{-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.14 Microsoft Simhei,"微软雅黑",Micorsoft Yahei,Helvetica,"Heiti SC","Droid Sans","Droidsansfallback",sans-serif;color:#333;outline:0;}
+html{font-size: 100px; height: 100%; min-width: 320px; min-height: 568px;}
+body{font-size: 14px; min-width: 320px; max-width: 740px; min-height: 100%; background-color: #fff; margin-left: auto; margin-right: auto;}
+/*a,a:hover{color:#333;}*/
+
+/* function */
+// 万能清除浮动
+.f-cb { zoom: 1;}
+.f-cb:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "";}
+.f-dn { display: none;}
+.f-db { display: block;}
+.f-dbb { display: block !important;}
+.f-fl { float: left;}
+.f-fr { float: right;}
+.f-oh { overflow: hidden;}
+.f-pr { position: relative;}
+.f-pa { position: absolute;}
+.f-tac { text-align: center;}
+body {
+  width: 100%;
+  min-width: 1262px;
+  z-index: 100px; }
+
+a:hover {
+  color: #f00; }
+
+.red {
+  color: #f50; }
+
+.c_top {
+  width: 1200px;
+  margin: 0 auto; }
+  .c_top div {
+    float: left; }
+    .c_top div a {
+      background: url(../img/logo.png) no-repeat;
+      display: block;
+      width: 205px;
+      height: 70px; }
+  .c_top p {
+    float: right;
+    width: 540px;
+    height: 27px; }
+    .c_top p em {
+      display: block;
+      width: 540px;
+      text-align: right;
+      padding: 10px 0;
+      font-weight: normal; }
+    .c_top p ins {
+      display: block;
+      width: 540px;
+      text-align: right;
+      background: url(../img/cart.3.3.png) 0 -447px;
+      height: 27px; }
+      .c_top p ins span {
+        width: 180px;
+        float: left;
+        text-align: center;
+        line-height: 27px; }
+
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+  .main .main_p {
+    margin-top: 40px; }
+    .main .main_p b {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: normal; }
+    .main .main_p span {
+      float: right; }
+    .main .main_p ins {
+      color: #f00; }
+  .main .cart_list {
+    width: 1200px;
+    margin: 0 auto; }
+    .main .cart_list a {
+      color: #666; }
+    .main .cart_list a:hover {
+      color: #f00; }
+    .main .cart_list table {
+      width: 1200px; }
+      .main .cart_list table tr {
+        border: 1px solid #C5C5C5; }
+        .main .cart_list table tr td {
+          text-align: center; }
+      .main .cart_list table .tr_fis {
+        border: 0; }
+         .main .cart_list table img{
+          width: 50px;
+         }
+        .main .cart_list table .tr_fis th {
+          line-height: 35px;
+          border: 0;
+          border-top: 2px solid #C6C6C6;
+          background: #eee;
+          text-align: center; }
+        .main .cart_list table .tr_fis .tr_fis_1 {
+          text-align: left;
+          text-indent: 10px; }
+      .main .cart_list table .tab_name {
+        text-align: left; }
+        .main .cart_list table .tab_name input {
+          float: left;
+          margin: 6px; }
+        .main .cart_list table .tab_name img {
+          width: 30px;
+          height: 30px;
+          float: left;
+          border: 1px solid #ccc;
+          margin-right: 20px; }
+      .main .cart_list table .num input {
+        width: 38px;
+        height: 22px;
+        float: left;
+        text-align: center; }
+      .main .cart_list table .num i {
+        width: 26px;
+        height: 26px;
+        background: #f00;
+        float: left;
+        line-height: 26px;
+        cursor: pointer; }
+      .main .cart_list table .num .subtract {
+        margin-left: 180px; }
+      .main .cart_list table .subtotal {
+        color: #f00; }
+      .main .cart_list table .tab_rows {
+        height: 120px;
+        background: #FFFCF1; }
+      .main .cart_list table .tab_space {
+        height: 30px; }
+  .main .clearing {
+    height: 48px;
+    border: 1px solid #ccc;
+    line-height: 48px;
+    margin-top: 100px; }
+    .main .clearing input {
+      margin-left: 10px; }
+    .main .clearing span {
+      float: right; }
+      .main .clearing span ins {
+        font-size: 22px;
+        color: #ff5000; }
+    .main .clearing .clearing_btn {
+      float: right;
+      width: 150px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      color: #fff;
+      font-size: 16px;
+      background: #FF5000;
+      margin-left: 10px; }
+
+.footer {
+  border: 2px solid #eee;
+  height: 200px;
+  margin-top: 40px; }
+
+/*# sourceMappingURL=cart.css.map */

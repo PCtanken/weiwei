@@ -1,0 +1,85 @@
+
+.head{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.head h1{margin: 24px 10px 0 54px;display: inline-block;}
+.head h1 img{width: 176px;height: 44px;display: block;}
+.head .head-img{margin: 20px 90px 0 10px;display: inline-block;width: 195px;height: 60px;}
+.head .head-span{display: block;width: 220px;height: 95px;float: right;margin-right: 54px}
+.head .head-span span{width: 64px;height: 95px;text-align: center;display: inline-block;margin-left: 40px}
+
+.oback{width: 100%;background: #e2ebe8;}
+.oback .oback-box{margin: 0 auto;text-align: center;width: 1200px;display: inline-block;padding: 40px 0;}
+.oback .oback-box .oback-img{margin-bottom: 30px !important;float: left;text-align: center;display: block;}
+.oback .oback-box .oback-img img{border: medium none;vertical-align: middle;}
+.oback .oback-box .oback-input{margin-bottom: 30px !important;height: 461px;width: 300px; background: #fff;padding: 20px; text-align: left;margin: 19px auto 0px 101px;display: block;float: right;position: relative;}
+.oback .oback-box .oback-input>div{height: 45px; font-size: 14px;display: -webkit-box;-webkit-box-pack:end;padding: 10px 0;margin-bottom: 30px;}
+.oback .oback-box .oback-input>div p{position: relative;right: 5px;top: 5px;}
+.oback .oback-box .oback-input>div a{
+	color:#ff9900;
+}
+.oback .oback-box .oback-input .form1 .c-input1{
+	width: 300px !important;
+	margin-bottom: 30px !important;
+	position: relative;
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+}
+.oback .oback-box .oback-input .form1 .c-input1 img{
+	width: 22px;
+	margin-left: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    float: left;
+    line-height: 25px;
+}
+.oback .oback-box .oback-input .form1 .c-input1 input{
+	border: none;
+	font-size: 18px;
+	text-indent: 1em;
+	outline:none;
+}
+.oback .oback-box .oback-input .form1 .c-input1 span{
+	float: right;
+    margin-right: 20px;
+  
+    width: 90px;
+    height: 28px;
+    display: inline-block;
+    background: url(../img/index.png);
+}
+.oback .oback-box .oback-input .form1>span{
+	display: block;
+	position: relative;
+	left: 200px;
+	height: 25px;
+    line-height: 25px;
+    
+}
+.oback .oback-box .oback-input .form1>span:hover a{
+    color: #ffa500;
+}
+.oback .oback-box .oback-input .form1>span a{
+	font-size: 14px;
+    color: #666;
+}
+.oback .oback-box .oback-input .form1 button{
+	background: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 0 40px 0;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+	width: 300px;
+	border: none;
+}

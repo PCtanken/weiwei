@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel='stylesheet' href='../css/cart.css'/>
+</head>
+<body>
+	<div class='c_top f-cb'>
+		<div><a href="#"></a></div>
+		<p>
+			<em>欢迎您，<i class='account'></i>！<a href="#">[会员管理]</a><a href="#">安全退出</a></em>
+			<ins>
+				<span>1.选择商品</span>
+				<span>2.确认订单信息</span>
+				<span>3.成功提交订单</span>
+			</ins>
+		</p>
+	</div>
+	<div class='main'>
+		<p class='main_p'><b>我的购物车</b><ins>0</ins>/50&nbsp;&nbsp;您的购物车将永久被保存<span>商品价格请以订单提交时为准</span></p>
+		<div class='cart_list'>
+			<table>
+				<thead>
+					<tr class='tr_fis'>
+						<th class='tr_fis_1'><input class='allselect' type="checkbox">全选</th>
+						<th>商品名称</th>
+						<th>价格（元）</th>
+						<th>数量</th>
+						<th>小计（元）</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				
+				<tbody></tbody>	
+			</table>
+			<div class='clearing'>
+				<input class='allselect' type="checkbox">全选
+				<ins>
+					<a class='delselect' href=javascript:;>删除选中商品</a>
+					<a href="">继续购物</a>
+					<a class = 'delall' href=javascript:;>清空购物车</a>
+				</ins>
+				<span>已选 <i>0</i> 件商品 合计（不含运费）：<ins>￥0</ins>
+				<a class='clearing_btn' href=javascript:;>去结算</a></span>
+			</div>
+		</div>
+	</div>
+	<div class='footer'></div>
+	<script src='../js/jquery-3.1.1.js'></script>
+	<script src='../js/common1.js'></script>
+	<script src='../js/cart1.js'></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+.head{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.head h1{margin: 24px 10px 0 54px;display: inline-block;}
+.head h1 img{width: 176px;height: 44px;display: block;}
+.head .head-img{margin: 20px 90px 0 10px;display: inline-block;width: 195px;height: 60px;}
+.head .head-span{display: block;width: 220px;height: 95px;float: right;margin-right: 54px}
+.head .head-span span{width: 64px;height: 95px;text-align: center;display: inline-block;margin-left: 40px}
+
+.enav{
+	width: 100%;
+	height: 12px;
+	background:linear-gradient(#dcdcdc 4px,#fff);	
+}
+.twig{
+	width: 1220px;
+	margin:auto;
+}
+.twig .reginson-bn{
+	width: 100%;
+    height: 35px;
+    border-bottom: 2px solid #ddd;
+    margin: 60px 0px;
+    font-size: 0px;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.twig .reginson-bn li{
+	min-width: 100px;
+    padding: 0px 50px;
+    text-align: center;
+    color: #333;
+    padding-bottom: 10px;
+    margin: 0px 30px;
+    float: left;
+    display: inline;
+
+}
+.twig .reginson-bn li span{
+	width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: #dcdcdc;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+}
+.twig .reginson-bn li p{
+	float: left;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.reginson-style{
+	margin: 0px auto;
+    width: 570px;
+    text-align: center;
+    color: #666;
+}
+.reginson-style input{
+	outline:none;
+}
+.reginson-style .clearfix{
+	margin-bottom: 20px;
+	position: relative;
+    width: 400px;
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.reginson-style .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.reginson-style .clearfix i{
+	width: 22px;
+	margin-left: 15px;
+    height: 25px;
+    display: block;
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    float: left;
+    line-height: 25px;
+}
+.reginson-style .clearfix input{
+	margin-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    border: none;
+    background: none;
+    font-size: 14px;
+    float: left;
+    width: 320px;
+}
+
+.reginson-style .clearfix .text{
+	width: 100px !important;
+}
+.reginson-style .clearfix .input-pcimg{
+	margin-left: 5px!important;
+}
+.reginson-style .oagree-wrap{
+	
+    width: 400px;
+    padding: 10px 0px;
+    height: 25px;
+    line-height: 25px;
+     margin-bottom: 20px;  
+}
+.reginson-style .oagree-wrap input{
+	margin-left: -40px;
+}
+.reginson-style .oagree-wrap p{
+	display: inline-block;
+	margin-left: 40px;
+	color: #666;
+	font-size: 12px;
+}
+.reginson-style .oagree-wrap p a{
+	    color: #0199cb;
+}
+.reginson-style .border-pc{
+	margin-bottom: 20px;
+	position: relative;
+    width: 400px;
+    padding: 10px 0px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.border-pc button{
+    display: block;
+	width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+   
+    margin-bottom: 40px;
+   border: 0;
+   margin:0 auto;
+
+}
