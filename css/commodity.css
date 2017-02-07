@@ -774,7 +774,7 @@
 .zoomdiv{position: absolute;overflow:hidden;z-index: 9999;}
 .zoomdiv img{position: absolute;left:0;right:0;}
 .jqzoom .lens{
-    position: absolute;width:200px;height:200px;border:1px solid #fc0;background-color:#ff0;background-color: rgba(255,255,0,0.05);filter:alpha(Opacity=30);
+    position: absolute;width:200px;height:200px;border:1px solid #fc0;background-color:#ff0;background-color: rgba(255,255,0,0.2);filter:alpha(Opacity=30);
 }
 
 .spec-scroll {

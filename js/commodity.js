@@ -68,16 +68,17 @@ var changpwd = {
 		var $divImg = $('.jqzoom');
 		var $smallimg = $('.jqzoom img');
 		var $itemimg = $('.items>ul>li>img');
+		var $lens = $('<span/>').addClass('lens').hide().appendTo($divImg);
+
 		$itemimg.each(function(index,item){
 			$(item).on('mouseover',function(){
 				$smallimg.removeClass();
-				$smallimg.attr('data-big',$(this).attr("data-big"));
-				var bigUrl = $smallimg.attr("data-big");
+			
+				var bigUrl = $(this).attr("data-big");
 				//生成默认样式
-				var $lens = $('<span/>').addClass('lens').hide().appendTo($divImg);
 				var $bigLens = $('<div/>').addClass('zoomdiv').append('<img src="'+bigUrl+'"/>').hide().appendTo($box);
 				//大图显示位置
-				var bigLeft,bigTop;
+				var bigLeft,bigTop;	
 				bigTop = 0;
 				bigLeft = $divImg.outerWidth()+10;
 				//大图属性
